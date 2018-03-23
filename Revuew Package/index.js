@@ -5,11 +5,13 @@ document.getElementById("menu").addEventListener("click", function(){
 
 
 //LEVEL 2 - SIMPLE JS
+var controlswidth = 100;
+var controlsheight = 70;
+
 document.getElementById("menu").addEventListener("click", function(){
-    document.getElementById("controls").style.bottom = "-400px";
+    var zoomimg = document.getElementById("controls").style.controls;
 });
 
-var imgwidth = 100;
-var imgheight = 70;
-var zoomimg = document.getElementById("zoom").style.backgroundImage;
+
+
 var ch1back = document.getElementById("ch1").style.backgroundImage.value;
