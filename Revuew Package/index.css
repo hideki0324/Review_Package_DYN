@@ -1,0 +1,46 @@
+#controls {
+    width: 150px;
+    height: 60vh;
+    position: fixed;
+    bottom: -557px;
+    left: 0px;
+	right: 0px;
+    margin: 0 auto;
+    text-align: center;
+    transition: 1s;
+}
+
+#menu,#filename,#title_t,#description_t{
+    width: 100%;
+}
+
+#display{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+
+#bacground {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url("https://images7.alphacoders.com/856/856401.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position-y: -250px;
+}
+
+#title{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#description {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
